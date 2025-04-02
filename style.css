@@ -1,0 +1,127 @@
+/* Dark Mode */
+body {
+    background-color: #020c1b; /* Darker shade of blue */
+    color: #ccd6f6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #03162a; /* Slightly lighter dark blue */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    color: #64ffda;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #64ffda;
+    color: #020c1b;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #52e0c4;
+    transform: scale(1.05);
+}
+
+a {
+    color: #8892b0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #64ffda;
+}
+
+/* Section Styling */
+section {
+    background: #03162a;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for sections */
+section:hover {
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: #f9f5ff; /* Soft pastel background */
+    color: #222; /* Darker text for readability */
+}
+
+/* Header */
+.light-mode header {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #ffdde1); /* Soft pink gradient */
+}
+
+/* Headings */
+.light-mode h1, 
+.light-mode h2 {
+    color: #ff6f61; /* Warm coral shade */
+}
+
+.light-mode h3 {
+    color: #ff4081; /* Bright pink */
+}
+
+.light-mode p, 
+.light-mode li {
+    color: #333; /* Darker for readability */
+}
+
+/* Section */
+.light-mode section {
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-left: 6px solid #ff6f61; /* Vibrant left border */
+}
+
+.light-mode section:hover {
+    border-left: 6px solid #ffcc00;
+    transform: scale(1.02);
+}
+
+/* Links */
+.light-mode a {
+    color: #ff4081;
+}
+
+.light-mode a:hover {
+    color: #ff6f61;
+}
+
+/* Buttons */
+.light-mode button {
+    background: linear-gradient(135deg, #ff6f61, #ffcc00);
+    color: white;
+}
+
+.light-mode button:hover {
+    background: linear-gradient(135deg, #ffcc00, #ff6f61);
+    transform: scale(1.05);
+}
